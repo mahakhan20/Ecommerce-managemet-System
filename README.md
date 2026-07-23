@@ -18,6 +18,18 @@ This web is a full-stack, responsive e-commerce web application built with  HTML
 - Decided on naming conventions and basic project structure for both folders.
 - Further description added in docs/day1.md
 
+### Day 3 – July 22, 2026
+- Created the GitHub repository and set up the base folder structure (client/, server/, docs/).
+- Initialized the frontend with Tailwind CSS and the backend with Express.
+- Built the responsive Homepage (navbar, hero section, featured products, footer).
+- Further description added in docs/day3.md.
+
+### Day 4 – July 23, 2026
+- Built the Cart page with item list, quantity controls, and order summary.
+- Built the About page with store introduction and mission statement.
+- Built the Contact Us page with form fields and contact info section.
+- Further description added in docs/day4.md.
+
 ## Tech Stack
 - Frontend: HTML5, CSS3, JavaScript (ES6+), Tailwind CSS
 - Backend: Node.js, Express.js, MongoDB (local), Mongoose
