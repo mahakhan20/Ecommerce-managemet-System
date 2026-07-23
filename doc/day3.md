@@ -1,34 +1,37 @@
-Day 3 – Repository Setup & Project Initialization
+Day 3 – Repository Setup & Homepage Development
 Date: July 22, 2026
 Module: 1 (July 20 – July 26, 2026)
+
 - Objective
-Set up the actual project repository and initialize both the frontend and 
-backend so coding can begin from Day 4 onward.
+Set up the project repository and folder structure, then build the first 
+responsive page — the Homepage.
 
 - Work Completed
 
-### 1. GitHub Repository Setup
-- Created the ShopSphere repository on GitHub.
-- Added a `.gitignore` file to exclude `node_modules/` and `.env`.
+1. GitHub Repository & Project Setup
+- Created the repository on GitHub.
 - Set up the base folder structure: `client/`, `server/`, `docs/`.
+- Added `.gitignore` to exclude `node_modules/` and `.env`.
+- Linked Tailwind CSS in the client folder.
 
-- 2. Frontend Initialization (client/)
-- Created empty HTML files for all planned pages:
-  `index.html`, `shop.html`, `product.html`, `cart.html`, `signup.html`, `contact.html`.
-- Linked Tailwind CSS (via CDN for now) in each HTML file.
-- Created `css/styles.css` for custom styles on top of Tailwind.
-- Created placeholder JS files: `shop.js`, `product.js`, `cart.js`, `auth.js`, `contact.js`.
+2. Homepage (index.html)
+- Built the navbar with logo and navigation links (Home, Shop, Cart, About, 
+  Login, Contact), including a mobile hamburger menu.
+- Built the hero section with a welcome message and call-to-action button.
+- Added a "Featured Products" section with a responsive grid layout 
+  (1 column on mobile, multiple columns on tablet/desktop).
+- Added a footer with contact info and quick links.
+- <img width="380" height="172" alt="image" src="https://github.com/user-attachments/assets/cb21b55a-84a4-44cd-a0ec-ccdd6feba89b" />
+<img width="400" height="492" alt="image" src="https://github.com/user-attachments/assets/fc07e8d2-c3af-4a19-bf79-f7bb7698ea10" />
+<img width="400" height="492" alt="image" src="https://github.com/user-attachments/assets/c8cdd525-d71f-4a9f-a090-c591473b3b55" />
 
-- 3. Backend Initialization (server/)
-- Ran `npm init` to set up `package.json`.
-- Installed Express: `npm install express`.
-- Created `server.js` as the entry point with a basic Express app and a test route.
-- Confirmed the server runs locally on a chosen port (e.g. `http://localhost:3000`).
+3. Responsiveness Testing
+- Tested the Homepage across mobile, tablet, and desktop screen sizes.
+- Confirmed navbar, hero section, and product grid all resize/restack correctly.
 
 - Decisions Made
-- Server will run on port 5000; client will be opened separately (e.g. via 
-  Live Server) during development.
+- Reused the same navbar and footer structure across all pages for consistency.
+- Product card design finalized here will be reused on the Shop and Cart pages.
 
 ## Next Steps (Day 4)
-- Build the Homepage layout (navbar, hero section, featured products, footer).
-- Test responsiveness across screen sizes.
+- Build the responsive Cart page and About page.
