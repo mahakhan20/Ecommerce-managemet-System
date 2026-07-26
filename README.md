@@ -30,6 +30,12 @@ This web is a full-stack, responsive e-commerce web application built with  HTML
 - Built the Contact Us page with form fields and contact info section.
 - Further description added in docs/day4.md.
 
+### Day 5 – July 24, 2026
+- Built the responsive Shop page with a product grid layout (image, name, price).
+- Built the Single Product page with detailed view and "Add to Cart" button.
+- Built the Signup/Login page with toggle between the two forms.
+- Further description added in docs/day5.md.
+
 ## Tech Stack
 - Frontend: HTML5, CSS3, JavaScript (ES6+), Tailwind CSS
 - Backend: Node.js, Express.js, MongoDB (local), Mongoose
