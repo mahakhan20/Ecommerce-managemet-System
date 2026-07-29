@@ -1,4 +1,4 @@
-Day 10 – Admin Product Routes (Create/Update/Delete)
+Day 8 – Admin Product Routes (Create/Update/Delete)
 Date: July 29, 2026
 Module: 2 (July 27 – Aug 02, 2026)
 
