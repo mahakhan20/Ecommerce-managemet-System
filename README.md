@@ -36,6 +36,14 @@ This web is a full-stack, responsive e-commerce web application built with  HTML
 - Built the Signup/Login page with toggle between the two forms.
 - Further description added in docs/day5.md.
 
+### Day 6 – July 27, 2026
+- Designed the MongoDB Product schema using Mongoose with product fields (name, description, price, quantity, image, category).
+- Connected the Product model to the Express backend and tested it with sample data in MongoDB Compass.
+- Organized the backend structure by preparing the models, routes, and controllers folders for the upcoming Product API.
+- Further description added in docs/day6.md.
+- <img width="317" height="310" alt="image" src="https://github.com/user-attachments/assets/25d3de13-f4d4-4505-b394-493a158af38e" />
+
+
 ## Tech Stack
 - Frontend: HTML5, CSS3, JavaScript (ES6+), Tailwind CSS
 - Backend: Node.js, Express.js, MongoDB (local), Mongoose
