@@ -49,6 +49,12 @@ This web is a full-stack, responsive e-commerce web application built with  HTML
 - Tested the API endpoints in Postman, including proper error handling for invalid product IDs.
 - Further description added in docs/day7.md.
 
+### Day 8 – July 29, 2026
+- Completed the Product API by adding admin routes to create, update, and delete products in MongoDB.
+- Implemented the corresponding controller functions and connected them to the Express backend routes.
+- Tested all CRUD operations in Postman and added basic validation for required product fields.
+- Further description added in docs/day8.md.
+
 ## Tech Stack
 - Frontend: HTML5, CSS3, JavaScript (ES6+), Tailwind CSS
 - Backend: Node.js, Express.js, MongoDB (local), Mongoose
