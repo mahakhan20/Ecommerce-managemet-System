@@ -43,6 +43,11 @@ This web is a full-stack, responsive e-commerce web application built with  HTML
 - Further description added in docs/day6.md.
 - <img width="317" height="310" alt="image" src="https://github.com/user-attachments/assets/25d3de13-f4d4-4505-b394-493a158af38e" />
 
+### Day 7 – July 28, 2026
+- Built the Product API with GET routes to fetch all products and individual product details from MongoDB.
+- Created the product controller and connected the routes to the Express backend.
+- Tested the API endpoints in Postman, including proper error handling for invalid product IDs.
+- Further description added in docs/day7.md.
 
 ## Tech Stack
 - Frontend: HTML5, CSS3, JavaScript (ES6+), Tailwind CSS
