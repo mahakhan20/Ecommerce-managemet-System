@@ -55,6 +55,13 @@ This web is a full-stack, responsive e-commerce web application built with  HTML
 - Tested all CRUD operations in Postman and added basic validation for required product fields.
 - Further description added in docs/day8.md.
 
+### Day 9 – July 30, 2026
+- Connected the Shop page to the live GET /api/products endpoint — products now load dynamically instead of being hardcoded.
+- Connected the Single Product page to GET /api/products/:id, reading the product ID from the URL.
+- Added a shared product-card renderer used by both the Shop page and the Related Products section.
+- Added error handling so both pages show a clear message if the backend isn't running instead of breaking.
+- Further description added in docs/day9.md.
+
 ## Tech Stack
 - Frontend: HTML5, CSS3, JavaScript (ES6+), Tailwind CSS
 - Backend: Node.js, Express.js, MongoDB (local), Mongoose
